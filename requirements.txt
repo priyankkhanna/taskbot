@@ -1,0 +1,8 @@
+wolframalpha
+wikipedia
+selenium
+webdriver-manager
+smtplib
+tkinter
+nltk
+torch

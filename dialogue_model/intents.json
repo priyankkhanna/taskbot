@@ -1,0 +1,144 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag":"appreciation",
+      "patterns":["you are great", "you are embarrasing me", "smart","kudos" ,"keep it up"],
+      "responses":["appreciate it", "your wish is my command","thanks, means a lot","happy to help","Thank You!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "computer science",
+      "patterns": [
+        "What is computer science?",
+        "Should i take cs as a career option",
+        "What does a software engineer do?"
+      ],
+      "responses": [
+        "Getting your computer science degree is an undertaking—but it's well worth the investment if you are looking to: Get into a technology field, but don't have any existing technical knowledge or skills. Make yourself a more attractive job candidate in a competitive talent pool.",
+        "Due to the increasing demand for Software Engineering in all IT sectors, the demand for Software Engineers also got on the rise. This demand indicates that in the coming years, Software Engineering will be a good career option and Software Engineers are going to rule the tech industry without any doubts.",
+        "Software engineering is a profitable career path with several prospects for financial security. Your earnings can vary depending on your experience, industry, education, and region. Employers can increase your earnings as you gain more experience on the job.",
+        ""
+      ]
+    },
+    {
+      "tag": "data science",
+      "patterns": [
+        "Is data science worth pursuing",
+        "What is data science",
+        "I like stats,what should I do",
+        "Is statistics and data science similar"
+      
+      ],
+      "responses": [
+        "Data science is the study of data to extract meaningful insights for business. It is a multidisciplinary approach that combines principles and practices from the fields of mathematics, statistics, artificial intelligence, and computer engineering to analyze large amounts of data.",
+        "Data science is an interdisciplinary academic field that uses statistics, scientific computing, scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured, and unstructured data",
+        "Data scientists use statistical analysis. However, data scientists need to be familiar with statistics, among other areas.In some cases, people with a background or education in statistics can gain additional knowledge through a degree program or job training and begin a data science career.",
+        "Data scientists can make sense of what appears random and chaotic, applying their expertise to turn data into actionable insights that their employers can use to make better strategic decisions. If this sounds enticing, a data scientist role might be the right fit for you."
+      ]
+    },
+    {
+      "tag": "NIT",
+      "patterns": [
+        "Tell me something about NIT Kurukshetra",
+        "Is NIT Kurukshetra good",
+        "What does NIT KKR offer"
+      ],
+      "responses": [
+        "National Institute of Technology (NIT) Kurukshetra is indeed a prestigious technical institution in India. It is one of the 31 NITs established by the Government of India and is located in Kurukshetra, Haryana.",
+        "NIT Kurukshetra is known for offering undergraduate, postgraduate, and doctoral programs in various engineering and technology disciplines. The institute has a strong academic curriculum, experienced faculty members, and well-equipped laboratories and facilities to support technical education.",
+        "NITs in general are highly regarded in India and have a good reputation for producing skilled engineers. NIT Kurukshetra, specifically, has consistently been ranked among the top engineering institutes in India.",
+        "NIT Kurukshetra offers undergraduate (B.Tech), postgraduate (M.Tech, MBA, MCA, M.Sc), and doctoral programs in various disciplines. The undergraduate programs include branches such as Civil Engineering, Mechanical Engineering, Electrical Engineering, Computer Science and Engineering, Electronics and Communication Engineering, and more."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "another joke please",
+        "funny",
+        "even funnier",
+        "haha, another one"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why don't scientists trust atoms?, Because they make up everything!",
+        "Why don't scientists trust atoms anymore?, Because they make up everything... and then they split!",
+        "I told my wife she should embrace her mistakes. She hugged me....Then she got a divorce lawyer.",
+        "Why don't seagulls fly over the bay?  Because then they'd be bagels!",
+        "I bought some shoes from a drug dealer. I don't know what he laced them with, but I've been tripping all day!",
+        "Why did the bicycle fall over? Because it was two-tired!",
+        "I used to be a baker, but I couldn't make enough dough. So I kneaded some cash and now I'm rolling in it!",
+        "What do you call a snowman with a six-pack? An abdominal snowman!",
+        "Why don't eggs tell jokes? Because they might crack up!"
+      ]
+    },
+    {
+      "tag":"sde vs data science",
+      "patterns":[
+        "if I like statistics, is data science better or cs?",
+        "if I like stats, is data science better or cs?",
+          "should i pursue data science or software engineering",
+          "Which side is more prospecting, ds or cs?"
+      ],
+      "responses":[
+        "Both data science and software development (SDE) offer promising career options, and the choice between them depends on your personal interests, skills, and long-term goals.",
+      "If you have a strong background in statistics and enjoy working with data, data science can be a great fit. Data scientists analyze and interpret complex data sets to extract insights and make data-driven decisions.  If you have a strong aptitude for programming and enjoy building software applications, SDE can be a rewarding career choice. Software developers design, develop, and maintain software systems, focusing on coding, software architecture, and optimization.",
+      "Both data science and software development offer strong career prospects, but their growth trajectories and demand may vary based on several factors:"
+    ]
+    },
+    {
+      "tag": "features of AGI",
+      "patterns":[
+        "what all can you do",
+        "what are your salient features",
+        "how can you make my life easy",
+        "tell me more",
+        "interesting"
+      ],
+      "responses":[" I can message your connection on LinkedIn whatever you want to. Along with this I can even create a personalized mail for a large group of recipents in a matter of milliseconds.",
+                   " If you are stuck in a mathematical equation and your professor is on leave, i am your guy",
+                  "want to search something online? just tell me!",
+                  "If you ever want to know about something, just tell me and i will bring the best result for you"]
+    },
+    {
+      "tag":"birth",
+      "patterns":["who created you", "who brought you to this world", "tell me more about your creator","credits"],
+      "responses":["PAR(Personalized Assistant Robot) was created by 3 geniuses from NIT Kurukshetra. These are namely Priyank Khanna, Arnav Bhattacharya and Ritish Kumar. Many believe their initials letter served as the acronym of my name. well this is an interesting story. Maybe for some other day :)" ]
+    }
+    
+
+  ]
+}
